@@ -25,7 +25,7 @@ class Agent(spade.agent.Agent):
         self.add_behaviour(vrijeme)
 
 async def main():
-    a = Agent("setup123@jabb.im","setup123")
+    a = Agent("agent_computer@xmpp.social","VAS123")
     await a.start()
     
     await spade.wait_until_finished(a)
