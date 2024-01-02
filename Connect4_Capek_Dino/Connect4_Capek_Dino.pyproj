@@ -21,6 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="GameAI.py" />
+    <Compile Include="GameStart.py" />
+    <Compile Include="GameSetup.py" />
+    <Compile Include="GameLogic.py" />
+    <Compile Include="GameBoard.py" />
     <Compile Include="Connect4_Capek_Dino.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
